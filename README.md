@@ -6,6 +6,8 @@ Bot is activated through the command "!screenshot *link*", afterwards the bot wi
 of the webpage through the same channel which you sent the command, it will also tag the discord account
 which requested the screenshot.
 
+Also you will have to change the path to your chromium driver with the code as well!
+
 ## ❓How to use the program:
 Locate your discord bot token, watch the following video if your unsure how:
 
