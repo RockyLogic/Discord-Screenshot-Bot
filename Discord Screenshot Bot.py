@@ -6,7 +6,8 @@ import datetime
 import re
 from discord.ext import commands
 
-token = "Token"
+token = "Token" #Replace token here!
+
 client = commands.Bot(command_prefix="!")
 client = discord.Client()
 
@@ -18,7 +19,7 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    if "!Selenium" in message.content:
+    if "!screenshot" in message.content:
         print(f"[{datetime.datetime.now()}] [Server: {message.guild.name}][#{message.channel}][{message.author}]:'{message.content}'")
         
         #Setting up Chromium Settings
