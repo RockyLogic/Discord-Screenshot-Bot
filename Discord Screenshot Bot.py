@@ -7,6 +7,7 @@ import re
 from discord.ext import commands
 
 token = "Token" #Replace token here!
+path = "C://Users/rocky/Desktop/Python/chromedriver.exe" #Replace Path Here
 
 client = commands.Bot(command_prefix="!")
 client = discord.Client()
@@ -35,7 +36,7 @@ async def on_message(message):
         
 
         #Selenium ScreenShot
-        driver=webdriver.Chrome(options=chrome_options,executable_path="C://Users/rocky/Desktop/Python/chromedriver.exe")
+        driver=webdriver.Chrome(options=chrome_options,executable_path=path)
         driver.get(urls.group())
         driver.set_window_size(1920, 1080)    
         driver.get_screenshot_as_file('screenshot.png')
