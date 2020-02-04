@@ -4,6 +4,9 @@ Discord bot which screenshots any website using chromium headless drivers.
 ## 📣 Read First!
 **Requires Chromium Download Matching Your Version Of Chrome!**
 **Make Sure To Edit Directory To Chromium File After Downloading!**
+
+https://chromedriver.chromium.org/downloads
+
 Bot is activated through the command "!screenshot *link*", afterwards the bot will send a screenshot 
 of the webpage through the same channel which you sent the command, it will also tag the discord account
 which requested the screenshot.
